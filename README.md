@@ -11,13 +11,9 @@ npm install -D node-sass
 
 ## Add build script in package.json
 ```json
-...
-
 "scripts": {
 	"build-css": "node-sass src/scss -w -o src"
 }
-...
-
 ```
 
 
